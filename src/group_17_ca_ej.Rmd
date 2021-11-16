@@ -5,8 +5,8 @@ date: "11/12/2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include = TRUE, message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 library(tidyverse)
 library(janitor)
 library(here)
@@ -30,8 +30,9 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
 # Erin is coding here
 ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) + 
   geom_hex() +
-  labs(x = "Percent of white people", y = "CalEnviroScreen pollution burden score") +
+  labs(x = "Percent of white people", y = "CalEnviroScreen pollution burden score", caption = "Data from the California Environmental Justice Alliance" ) +
   # Alissa Coding here
   scale_fill_gradient(low = "orange", high = "green") 
 ```
 
+Figure 1: Percentage of white people versus the CalEnviroScreen (CES) 3.0 score. CES 3.0 scores account for pollution burden and population characteristics. 
