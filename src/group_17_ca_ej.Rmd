@@ -30,7 +30,7 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
 # Erin is coding here
 ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) + 
   geom_hex() +
-  labs(x = "Percent of white people", y = "CalEnviroScreen pollution burden score", caption = "Data from the California Environmental Justice Alliance" ) +
+  labs(x = "Percent white population", y = "CalEnviroScreen pollution burden score", caption = "Data from the California Environmental Justice Alliance" ) +
   # Alissa Coding here
   scale_fill_gradient(low = "orange", high = "green") +
    theme(plot.caption = element_text(hjust = 0, size = 12))
