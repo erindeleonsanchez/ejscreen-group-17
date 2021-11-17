@@ -40,4 +40,4 @@ Figure 1: Percentage of white people versus the CalEnviroScreen (CES) 3.0 score.
 
 Overall, Figure 1 shows that white people live in areas with lower pollution burden scores than people of color.
 
-Data citation: CalEnviroScreen 3.0. ces3demographics.csv.  
+Data citation: California Office of Environmental Health Hazard Assesment. CalEnviroScreen 3.0. (2018). https://oehha.ca.gov/calenviroscreen/report/calenviroscreen-30 
